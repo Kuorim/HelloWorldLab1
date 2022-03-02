@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HelloWorldLab</string>
+    <string name="app_name">Hello_World_Laboratorinis</string>
+    <string name="button_action">Click Me!</string>
 </resources>

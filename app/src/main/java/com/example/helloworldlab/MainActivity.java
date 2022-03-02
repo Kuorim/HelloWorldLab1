@@ -2,6 +2,7 @@ package com.example.helloworldlab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -21,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
     public void BtnClick(View view) {
         this.text_view_Main = (TextView) findViewById(R.id.text_view_Main);
         text_view_Main.setText("Hello!");
+    }
+
+    public void Btn2Click(View view) {
+        this.text_view_Main = (TextView) findViewById(R.id.text_view_Main);
+        text_view_Main.setTextColor(Color.RED);
     }
 }
